@@ -1,0 +1,56 @@
+[
+  {
+    "Id": 1,
+    "Name": "Apple",
+    "Price": 80000.0,
+    "Quantity": 20
+  },
+  {
+    "Id": 2,
+    "Name": "Samsung",
+    "Price": 50000.0,
+    "Quantity": 15
+  },
+  {
+    "Id": 3,
+    "Name": "One Plus",
+    "Price": 20000.0,
+    "Quantity": 100
+  },
+  {
+    "Id": 4,
+    "Name": "Oppo",
+    "Price": 45000.0,
+    "Quantity": 120
+  },
+  {
+    "Id": 5,
+    "Name": "fdsdfdsf",
+    "Price": 0.0,
+    "Quantity": 0
+  },
+  {
+    "Id": 6,
+    "Name": "f",
+    "Price": 354.0,
+    "Quantity": 543
+  },
+  {
+    "Id": 7,
+    "Name": "dfsgfdg",
+    "Price": 0.0,
+    "Quantity": 0
+  },
+  {
+    "Id": 8,
+    "Name": "mob",
+    "Price": 0.0,
+    "Quantity": 0
+  },
+  {
+    "Id": 9,
+    "Name": "q",
+    "Price": 0.0,
+    "Quantity": 0
+  }
+]
