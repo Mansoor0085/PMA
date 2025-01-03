@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductManagementApp.Reposi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductManagementApp.Service", "ProductManagementApp.Service\ProductManagementApp.Service.csproj", "{CD6101B3-A0F8-4051-9463-A896A3D3B6C8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductManagementApp.API", "ProductManagementWebApi\ProductManagementApp.API.csproj", "{01724162-EC99-4DE5-8249-E994B6302C04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductManagementApp.API", "ProductManagementWebApi\ProductManagementApp.API.csproj", "{1C5ADE0C-6D4D-4C38-B36F-9B496DBA4C8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{CD6101B3-A0F8-4051-9463-A896A3D3B6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD6101B3-A0F8-4051-9463-A896A3D3B6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD6101B3-A0F8-4051-9463-A896A3D3B6C8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{01724162-EC99-4DE5-8249-E994B6302C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01724162-EC99-4DE5-8249-E994B6302C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01724162-EC99-4DE5-8249-E994B6302C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01724162-EC99-4DE5-8249-E994B6302C04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C5ADE0C-6D4D-4C38-B36F-9B496DBA4C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5ADE0C-6D4D-4C38-B36F-9B496DBA4C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5ADE0C-6D4D-4C38-B36F-9B496DBA4C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5ADE0C-6D4D-4C38-B36F-9B496DBA4C8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
