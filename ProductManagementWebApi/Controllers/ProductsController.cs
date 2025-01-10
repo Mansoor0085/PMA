@@ -13,13 +13,16 @@ namespace ProductManagementApp.Controllers
         private IProductService _productService;
         private readonly ILogger<ProductsController> _logger;
 
-
         public ProductsController(IProductService productService, ILogger<ProductsController> logger)
         {
             _productService = productService;
             _logger = logger;
         }
 
+        /// <summary>
+        /// Retrieves a list of all products.
+        /// </summary>
+        /// <returns>A list of products.</returns>
         [HttpGet]
         public IActionResult GetProducts()
         {
@@ -27,6 +30,11 @@ namespace ProductManagementApp.Controllers
             return Ok(products);
         }
 
+        /// <summary>
+        /// Retrieves a product by its ID.
+        /// </summary>
+        /// <param name="id">The ID of the product to retrieve.</param>
+        /// <returns>The product with the specified ID, or a not found response if the product does not exist.</returns>
         [HttpGet("id")]
         public IActionResult GetProduct(int id)
         {
@@ -46,6 +54,11 @@ namespace ProductManagementApp.Controllers
             }
         }
 
+        /// <summary>
+        /// Creates a new product.
+        /// </summary>
+        /// <param name="product">The product to create.</param>
+        /// <returns>No content response if the product is created successfully, or a bad request response if validation fails.</returns>
         [HttpPost]
         public IActionResult Post([FromBody] Product product)
         {
@@ -57,6 +70,11 @@ namespace ProductManagementApp.Controllers
             return NoContent();
         }
 
+        /// <summary>
+        /// Updates an existing product.
+        /// </summary>
+        /// <param name="product">The updated product details.</param>
+        /// <returns>No content response if the product is updated successfully, or a bad request response if validation fails.</returns>
         [HttpPut] 
         public ActionResult Put([FromBody] Product product)
         {
@@ -68,6 +86,11 @@ namespace ProductManagementApp.Controllers
             return NoContent(); 
         }
 
+        /// <summary>
+        /// Deletes a product by its ID.
+        /// </summary>
+        /// <param name="id">The ID of the product to delete.</param>
+        /// <returns>No content response if the product is deleted successfully.</returns>
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {

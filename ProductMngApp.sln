@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductManagementApp.Servic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductManagementApp.API", "ProductManagementWebApi\ProductManagementApp.API.csproj", "{1C5ADE0C-6D4D-4C38-B36F-9B496DBA4C8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagementApp.Tests", "ProductManagementApp.Tests\ProductManagementApp.Tests.csproj", "{74AD51D0-E4E7-491E-A040-7B2C90C52514}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1C5ADE0C-6D4D-4C38-B36F-9B496DBA4C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C5ADE0C-6D4D-4C38-B36F-9B496DBA4C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C5ADE0C-6D4D-4C38-B36F-9B496DBA4C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74AD51D0-E4E7-491E-A040-7B2C90C52514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74AD51D0-E4E7-491E-A040-7B2C90C52514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74AD51D0-E4E7-491E-A040-7B2C90C52514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74AD51D0-E4E7-491E-A040-7B2C90C52514}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

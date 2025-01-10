@@ -24,5 +24,7 @@
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     </ItemGroup>
-
+	<ItemGroup>
+		<InternalsVisibleTo Include="ProductManagementApp.Tests" />
+	</ItemGroup>
 </Project>
